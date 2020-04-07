@@ -1,0 +1,21 @@
+programador
+
+__o_____o__
+chutes
+palavra_secreta
+
+para cada uma das letras da palavra_secreta
+    se a letra ja foi chutada
+        imprime a letra
+    se nao 
+        imprime _
+    end
+    
+for letra in palavra_secreta.chars do
+if chutes.include? letra
+puts letra
+else
+puts "_""
+end 
+
+end
