@@ -19,7 +19,7 @@ def desenha_forca(erros)
     end
     if erros >= 2
         bracos = " | "
-        corpo = "|   |"
+        corpo = "|"
     end
     if erros >= 3
         bracos = "\\|/"
